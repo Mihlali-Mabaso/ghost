@@ -14,6 +14,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+
+st.markdown("""
+<div style="background: linear-gradient(90deg, #00D4FF, #6B2FA0); padding: 10px; border-radius: 10px; text-align: center; color: white; font-size: 1.2rem; margin-bottom: 20px;">
+    🔴 <strong>LIVE:</strong> 142 Ghost Mode triggers this week | R7.4M protected | <span style="color: #00FF88;">▲ 12% MoM</span>
+</div>
+""", unsafe_allow_html=True)
 # ===================== CUSTOM CSS =====================
 st.markdown("""
 <style>
